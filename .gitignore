@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Astah
+*.asta.lock
+
+# visual studio
+.vs/
+x64/
+*.vcxproj.user
