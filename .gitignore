@@ -35,6 +35,58 @@
 *.asta.lock
 
 # visual studio
-.vs/
+# 忽略編譯和編譯過程生成的目錄
+Debug/
+Release/
 x64/
-*.vcxproj.user
+x86/
+ipch/
+out/
+# 忽略生成的文件
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.idb
+*.pdb
+*.opendb
+*.VC.db
+*.db
+*.res
+*.obj
+*.exe
+*.dll
+*.exp
+*.rsp
+*.tlog
+*.lastbuildstate
+*.manifest
+# 忽略 Visual Studio 2015/2017/2019 本地設置目錄
+.vs/
+# 忽略 ReSharper 目錄和文件
+_ReSharper*/
+*.DotSettings.user
+# 其他文件和目錄忽略
+[Bb]in
+[Oo]bj
+[Ll]ogs
+[Dd]ebug*/
+[Rr]elease*/
+[Tt]est[Rr]esult*
+# 忽略 macOS 系統文件
+.DS_Store
+# 忽略 Node 模塊文件
+node_modules/
