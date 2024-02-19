@@ -18,6 +18,21 @@
     <ClCompile Include="..\src\main.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\modules\coord.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\individual.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\matchmakingStrategy.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\byHabbits.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\byDistance.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\modules\matchmakingSystem.hpp">
@@ -32,7 +47,10 @@
     <ClInclude Include="..\src\modules\byHabbits.hpp">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\modules\individaul.hpp">
+    <ClInclude Include="..\src\modules\coord.hpp">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\individual.hpp">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

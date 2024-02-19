@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -20,11 +20,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\modules\byDistance.cpp" />
+    <ClCompile Include="..\src\modules\byHabbits.cpp" />
+    <ClCompile Include="..\src\modules\coord.cpp" />
+    <ClCompile Include="..\src\modules\individual.cpp" />
+    <ClCompile Include="..\src\modules\matchmakingStrategy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\modules\byDistance.hpp" />
     <ClInclude Include="..\src\modules\byHabbits.hpp" />
-    <ClInclude Include="..\src\modules\individaul.hpp" />
+    <ClInclude Include="..\src\modules\coord.hpp" />
+    <ClInclude Include="..\src\modules\individual.hpp" />
     <ClInclude Include="..\src\modules\matchmakingStrategy.hpp" />
     <ClInclude Include="..\src\modules\matchmakingSystem.hpp" />
   </ItemGroup>
