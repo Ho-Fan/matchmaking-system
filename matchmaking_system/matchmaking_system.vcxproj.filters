@@ -33,6 +33,9 @@
     <ClCompile Include="..\src\modules\byDistance.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\modules\matchmakingSystem.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\modules\matchmakingSystem.hpp">

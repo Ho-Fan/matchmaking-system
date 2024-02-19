@@ -25,6 +25,7 @@
     <ClCompile Include="..\src\modules\coord.cpp" />
     <ClCompile Include="..\src\modules\individual.cpp" />
     <ClCompile Include="..\src\modules\matchmakingStrategy.cpp" />
+    <ClCompile Include="..\src\modules\matchmakingSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\modules\byDistance.hpp" />
