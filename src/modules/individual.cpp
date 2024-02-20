@@ -11,10 +11,12 @@ Individual::~Individual()
 {
 }
 
-std::unique_ptr<Individual> Individual::get_matchmaked()
+std::shared_ptr<Individual> Individual::get_matchmaked() const
 {
+	return matchmaked;
 }
 
-void Individual::match(std::unique_ptr<Individual> matchmaked)
+void Individual::match(std::shared_ptr<Individual> matchmaked)
 {
+	this -> matchmaked = matchmaked;
 }

@@ -12,7 +12,7 @@ class MatchmakingStrategy
 private:
 
 public:
-	virtual std::unique_ptr<Individual> match(std::unique_ptr<Individual>& matchmaker, std::vector<std::unique_ptr<Individual>>& individuals, const bool& reverse) = 0;
+	virtual std::shared_ptr<Individual> match(std::shared_ptr<Individual>& matchmaker, std::vector<std::shared_ptr<Individual>>& individuals, const bool& reverse) = 0;
 };
 
 #endif

@@ -10,7 +10,7 @@ class MatchmakingSystem
 private:
 
 public:
-	void match(std::vector<std::unique_ptr<Individual>>& individuals, MatchmakingStrategy& strategy, bool reverse);
+	void match(std::vector<std::shared_ptr<Individual>>& individuals, MatchmakingStrategy& strategy, bool reverse);
 };
 
 

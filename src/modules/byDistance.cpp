@@ -1,6 +1,16 @@
 #include "byDistance.hpp"
 
-std::unique_ptr<Individual> ByDistance::match(std::unique_ptr<Individual>& matchmaker, std::vector<std::unique_ptr<Individual>>& individuals, const bool& reverse)
+std::shared_ptr<Individual> ByDistance::match(std::shared_ptr<Individual>& matchmaker, std::vector<std::shared_ptr<Individual>>& individuals, const bool& reverse)
 {
-    return std::unique_ptr<Individual>();
+    if (reverse == false)
+    {
+        int distanceMIn = std::numeric_limits<int>::max();
+        for (std::shared_ptr<Individual> matchmaked : individuals)
+        {
+            if (matchmaked == matchmaker)
+                continue;
+
+            if 
+        }
+    }
 }
