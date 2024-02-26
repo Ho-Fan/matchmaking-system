@@ -22,8 +22,13 @@ private:
 public:
 	Individual(int id, int gender, int age, std::string& intro, std::vector<std::string>& habbits, const Coord& coord);
 	~Individual();
+
+	Coord get_coord() const;
+	std::vector<std::string> get_habbits();
+
 	std::shared_ptr<Individual> get_matchmaked() const;
 	void match(std::shared_ptr<Individual> matchmaked);
+
 };
 
 #endif // !INDIVIDUAL_HPP

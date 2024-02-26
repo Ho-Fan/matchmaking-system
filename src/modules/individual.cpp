@@ -11,6 +11,16 @@ Individual::~Individual()
 {
 }
 
+Coord Individual::get_coord() const
+{
+	return coord;
+}
+
+std::vector<std::string> Individual::get_habbits()
+{
+	return habbits;
+}
+
 std::shared_ptr<Individual> Individual::get_matchmaked() const
 {
 	return matchmaked;
@@ -20,3 +30,5 @@ void Individual::match(std::shared_ptr<Individual> matchmaked)
 {
 	this -> matchmaked = matchmaked;
 }
+
+
