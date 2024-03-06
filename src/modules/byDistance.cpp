@@ -7,7 +7,7 @@ float ByDistance::get_distance(std::shared_ptr<Individual>& matchmaker, std::sha
     float makedX = static_cast<float>(matchmaked->get_coord().get_x());
     float makedY = static_cast<float>(matchmaked->get_coord().get_y());
 
-    return std::sqrt(std::pow(makerX - makedY, 2) + pow(makedY - makerY, 2));
+    return std::sqrt(std::pow(makerX - makedX, 2) + pow(makedY - makerY, 2));
 }
 
 std::shared_ptr<Individual> ByDistance::match(std::shared_ptr<Individual>& matchmaker, std::vector<std::shared_ptr<Individual>>& individuals, const bool& reverse)
